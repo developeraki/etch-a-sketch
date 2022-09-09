@@ -1,0 +1,38 @@
+html {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  h1{
+    color: rgb(62, 62, 228);
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .left {
+    display: inline-block;
+  }
+  
+  .square {
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  .color {
+    background-color: gray;
+    border: 1px solid black;
+  }
+  
+  .gridContainer {
+    margin-top: 25px;
+    margin-right: 40px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+  }
